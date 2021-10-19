@@ -1,0 +1,39 @@
+{
+  "props": [
+    {
+      "name": "Accent",
+      "type": "color",
+      "value": "rgb(141,17,181)",
+      "category": "color",
+      "meta": {
+        "projectId": "o3FDM4dLSxkErUHLgw7PDU",
+        "id": "-c6iz8GPgVb"
+      }
+    },
+    {
+      "name": "BG",
+      "type": "color",
+      "value": "rgb(238,238,238)",
+      "category": "color",
+      "meta": {
+        "projectId": "o3FDM4dLSxkErUHLgw7PDU",
+        "id": "0umANsLPyP1"
+      }
+    },
+    {
+      "name": "Inverted text",
+      "type": "color",
+      "value": "rgb(222,222,222)",
+      "category": "color",
+      "meta": {
+        "projectId": "o3FDM4dLSxkErUHLgw7PDU",
+        "id": "g1Ytw0Cu2a7"
+      }
+    }
+  ],
+  "global": {
+    "meta": {
+      "source": "plasmic.app"
+    }
+  }
+}

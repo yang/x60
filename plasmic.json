@@ -1,0 +1,105 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "o3FDM4dLSxkErUHLgw7PDU",
+      "projectName": "Developer Quickstart Sandbox",
+      "version": "latest",
+      "cssFilePath": "plasmic/developer_quickstart_sandbox/plasmic_developer_quickstart_sandbox.module.css",
+      "components": [
+        {
+          "id": "crjG8uKghfI",
+          "name": "ProfileCard",
+          "type": "managed",
+          "projectId": "o3FDM4dLSxkErUHLgw7PDU",
+          "renderModuleFilePath": "plasmic/developer_quickstart_sandbox/PlasmicProfileCard.tsx",
+          "importSpec": {
+            "modulePath": "ProfileCard.tsx"
+          },
+          "cssFilePath": "plasmic/developer_quickstart_sandbox/PlasmicProfileCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "0acDm353s6L",
+          "name": "TwitterIcon",
+          "moduleFilePath": "plasmic/developer_quickstart_sandbox/icons/PlasmicIcon__Twitter.tsx"
+        },
+        {
+          "id": "wyJ5Pwi4Wlu",
+          "name": "FacebookIcon",
+          "moduleFilePath": "plasmic/developer_quickstart_sandbox/icons/PlasmicIcon__Facebook.tsx"
+        },
+        {
+          "id": "osaeWQdav9J",
+          "name": "GithubIcon",
+          "moduleFilePath": "plasmic/developer_quickstart_sandbox/icons/PlasmicIcon__Github.tsx"
+        },
+        {
+          "id": "J5pJahd5nFx",
+          "name": "DribbbleIcon",
+          "moduleFilePath": "plasmic/developer_quickstart_sandbox/icons/PlasmicIcon__Dribbble.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "L8_3rBziHWT",
+          "name": "Toolbar Codegen",
+          "filePath": "../public/plasmic/developer_quickstart_sandbox/images/toolbarCodegen.png"
+        },
+        {
+          "id": "ezdOhNNXWtT",
+          "name": "Toolbar CodeSandbox",
+          "filePath": "../public/plasmic/developer_quickstart_sandbox/images/toolbarCodeSandbox.png"
+        },
+        {
+          "id": "7CLTCywwDmB",
+          "name": "image",
+          "filePath": "../public/plasmic/developer_quickstart_sandbox/images/image.png"
+        },
+        {
+          "id": "WQrhiuoX_kr",
+          "name": "image 2",
+          "filePath": "../public/plasmic/developer_quickstart_sandbox/images/image2.svg"
+        },
+        {
+          "id": "vIu_jVHKsQd",
+          "name": "image 3",
+          "filePath": "../public/plasmic/developer_quickstart_sandbox/images/image3.png"
+        }
+      ],
+      "codeComponents": [],
+      "projectApiToken": "SeUBPlDktRjwT8j49c1ouUR2q3hTnKdduyrjML0u6auKVfcpzxrPqxxMY4jUA6WN1th6ldMQ2lpy1qtA3Hw"
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": []
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.163",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.163/dist/plasmic.schema.json"
+}
